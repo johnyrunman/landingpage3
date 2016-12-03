@@ -1,7 +1,7 @@
 @import "bourbon/bourbon"
 
 body
-	font-family: "Raleway", sans-serif
+	font-family: "OpenSans-Regular", sans-serif
 	font-weight: normal
 	font-size: 14px
 	min-width: 320px
@@ -19,8 +19,8 @@ body textarea:required:valid
 .hidden
 	display: none
 
-$font-light: Open Sans Light, sans-serif
-$font-regular: Open Sans Regular, sans-serif
+$font-light: "OpenSans-Light", sans-serif
+$font-regular: "OpenSans-Regular", sans-serif
 $color-black: #222626
 $color-gray: #959595
 $color-gray-h: #67676d
@@ -47,17 +47,31 @@ p
 	font-family: $font-regular
 	font-size: 14px
 	line-height: 24px
-	color: #fff
 
 header
-	padding-top: 453px
 	height: 950px
 	background-image: url(../img/header-bg.png)
+	background-position: top center
+	background-size: cover
+	img
+		margin: 56px 0 355px 0
+	p
+		color: #fff
 
 .description
 	height: 1623px
+	padding-top: 114px
+	p
+		color: $color-gray
+	.column-2
+		padding-top: 136px
 
 .option
+	padding-top: 438px
 	height: 874px
 	background-image: url(../img/options-bg.png)
+	color: #fff
+	a
+		color: #fff
+		font-weight: bold
 
