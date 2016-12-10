@@ -91,6 +91,8 @@ header p {
 .option {
   padding: 420px 0 137px 0;
   background-image: url(../img/options-bg.png);
+  background-position: top center;
+  background-size: cover;
   color: #fff;
 }
 
@@ -152,7 +154,7 @@ header p {
 }
 
 .price i {
-  padding: 19px 13px 0 0;
+  padding: 8px 13px 0 0;
   font-size: 24px;
   line-height: 24px;
   color: #c5c5c5;
@@ -214,6 +216,7 @@ footer ul {
 }
 
 .b4 {
+  float: left;
   background-color: #bd8cbf;
 }
 
@@ -235,4 +238,34 @@ footer ul {
 
 .details h2 {
   padding-bottom: 69px;
+}
+
+.subscribe {
+  position: relative;
+  padding-top: 7px;
+}
+
+.subscribe input {
+  outline: none;
+  height: 58px;
+  width: 400px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  color: #192431;
+  font-size: 22px;
+  line-height: 22px;
+  padding: 0 20px;
+}
+
+.subscribe button {
+  font-size: 22px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  vertical-align: bottom;
+  background-color: #82ca9c;
+  height: 58px;
+  width: 69px;
+  border: none;
+  border-radius: 0 5px 5px 0;
 }
