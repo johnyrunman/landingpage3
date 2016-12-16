@@ -84,8 +84,14 @@ header p {
   color: #959595;
 }
 
-.description .column-2 {
-  padding-top: 136px;
+.description img {
+  width: 350px;
+}
+
+.description .image {
+  position: absolute;
+  top: -550px;
+  right: 100px;
 }
 
 .blocks {
